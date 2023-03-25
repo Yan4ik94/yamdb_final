@@ -1,6 +1,6 @@
 from django.db import models
-
 from users.models import User
+
 from .utils import ScoreChoice, validate_year
 
 QUERY_SET_LENGTH = 15
