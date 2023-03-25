@@ -46,6 +46,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
+          file: ./api_yamdb/Dockerfile
           tags: yan4ik1994/yamdb_final:latest
 
   deploy:
